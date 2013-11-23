@@ -1,0 +1,33 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+	@Styles.Render("~/Content/Watch.css")
+	@Scripts.Render("~/Scripts/Watch.js")
+    <title>View1</title>
+</head>
+<body>
+    <div class="FantasyPanel"></div>
+	<div class="WatchPanel">
+		<div class="WatchPanelContent">
+			<div class="UrlRootContainer">
+				<div class="UrlContentContainer">
+					<div class="UrlLabel">Url:</div>
+					<div class="Url">
+						<input id="watchUrl" type="text"><br>
+					</div>
+				</div>
+			</div>
+			<div class="IFrameContainer">
+				<iframe id="watchIFrame" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" src="http://www.firstrowsports.eu"></iframe>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>

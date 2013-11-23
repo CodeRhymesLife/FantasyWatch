@@ -1,0 +1,62 @@
+﻿html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+}
+
+.FantasyPanel {
+	height: 100%;
+	width: 33%;
+	max-width: 300px;
+	float: left;
+	background-color: black;
+}
+
+.WatchPanel {
+	height: 100%;
+	overflow: hidden;
+	background-color: yellow;
+}
+
+.WatchPanelContent {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.UrlContainerRoot {
+	display: table-row;
+	width: 100%;
+	background-color: red;
+}
+
+.UrlContentContainer div {
+	margin: 0 20px;
+}
+
+.UrlContentContainer .UrlLabel {
+	float: left
+}
+
+.UrlContentContainer .Url {
+	overflow: hidden;
+}
+
+.Url input {
+	width: 100%;
+}
+
+.WatchPanel .IFrameContainer {
+	display: table-row;
+	height: 100%;
+	background-color: orange;
+}
+
+.WatchPanel .IFrameContainer iframe {
+	height: 100%;
+	width: 100%;
+}
